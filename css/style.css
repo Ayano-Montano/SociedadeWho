@@ -18,7 +18,8 @@
     display: flex;
     min-height: 70px;
     align-items: center;
-    background-color: #919191;
+    background-color: #303030;
+    padding: 10px;
    
 }
 
@@ -54,10 +55,20 @@
     display: block;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: #CDCDCD;
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+
+}
+
+.nav-link {
+    transition: 0.2s;
+}
+
+.nav-link:hover  {
+    transition: 0.2s;
+    transform: translateY( -7px);
 }
 
 .navbar-cabecalho-mobile {
@@ -118,98 +129,6 @@
 
 
 
-/*Seção de post inicio*/
-
-.section-post-iapinboard {
-    width: 100%; 
-    max-width: 700px; 
-    margin: 0 auto; 
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    border-radius: 5px; overflow: hidden; 
-
-} 
-
-
-
-
-.section-post { 
-    width: 80%; 
-    max-width: 600px; 
-    margin: 10px auto; 
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    border-radius: 5px; overflow: hidden; } 
-    
-    .post-header {
-         display: flex; 
-         align-items: center; 
-         padding: 15px; 
-         background-color: #f8f8f8; 
-         border-bottom: 1px solid #ddd; 
-        } 
-
-    .header-profile-pic { 
-        width: 50px; 
-        height: 50px; border-radius: 50%; 
-        object-fit: cover; margin-right: 10px; 
-    } 
-
-     .header-info { 
-        flex: 1; 
-    } 
-    
-    .header-username { 
-        margin: 0; 
-        font-size: 16px; 
-        font-weight: bold; 
-    } 
-    
-    .header-caption {
-        margin: 5px 0 0 0; 
-        font-size: 14px; color: #666; } 
-    .post-image { 
-        padding: 15px;
-     } 
-    
-     .post { 
-        display: block;
-        width: 80%; 
-        height: auto; 
-        margin: auto;
-    } 
-    
-    .post-footer { 
-        display: flex; 
-        justify-content: space-between; 
-        align-items: center; 
-        padding: 15px; 
-        border-top: 1px solid #ddd; 
-    } 
-    
-    .post-stats { 
-        margin: 0; 
-    } 
-    
-    .likes, .comments { 
-        margin: 0; 
-        font-size: 14px; 
-        color: #666; 
-    } 
-    
-    .action-button { 
-        background-color: transparent; 
-        border: none; 
-        font-size: 14px; 
-        color: #0077ff; 
-        cursor: pointer; 
-        margin-right: 10px; } 
-    .action-button:hover { 
-        text-decoration: underline; 
-    }
-
-
-/*Seção de post final*/
 
 
 /*Mobile*/
