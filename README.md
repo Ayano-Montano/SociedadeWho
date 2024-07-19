@@ -1,4 +1,4 @@
-# AI Pinboard
+# Sociedade Who
 
 isso e somente o front-end
 
